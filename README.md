@@ -2,13 +2,15 @@
 
 # Just Do following!!
 
-Add .env file to project root
+install python3 and go lts
+**Add .env file to project root**
 
 ```
+sudo apt-get update
+sudo apt-get install gtkterm
 bash create_env.sh
 sudo bash start.sh
 ```
-## clone branch
 
 ## activate venk    main()
 csv
