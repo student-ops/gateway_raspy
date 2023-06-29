@@ -1,3 +1,13 @@
+
+
+# Just Do following!!
+
+Add .env file to project root
+
+```
+bash create_env.sh
+sudo bash start.sh
+```
 ## clone branch
 
 ## activate venk    main()

@@ -6,6 +6,7 @@ sudo chmod 777 /dev/ttyUSB0
 gtkterm -p /dev/ttyUSB0 -s 115200 -e  -L &
 sleep 3
 cd ./
+source .venv/bin/activate
 if [ -f ".env" ]; then
     export PYTHON_PATH=./
     python3 main.py
