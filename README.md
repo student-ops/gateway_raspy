@@ -2,7 +2,8 @@
 
 # Just Do following!!
 
-install python3 and go lts
+install python3 and go ltsversion
+
 **Add .env file to project root**
 
 ```
