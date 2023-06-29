@@ -6,7 +6,7 @@ from datetime import datetime
 import requests
 import json
 import sys
-import fetch_slack
+from src.fetch_slack import fetch_slack
 
 def extract_numbers(output):
     # Extract numbers from the output using a regular expression

@@ -8,7 +8,7 @@ sleep 3
 cd ./
 if [ -f ".env" ]; then
     export PYTHON_PATH=./
-    python3 wisun_receive.py
+    python3 main.py
 else 
     echo ".env File does not exist."
 fi
