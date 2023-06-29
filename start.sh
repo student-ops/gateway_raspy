@@ -1,0 +1,16 @@
+#!/bin/bash
+cd ../go_serial
+go mod init test
+go mod tidy
+sudo chmod 777 /dev/ttyUSB0
+gtkterm -p /dev/ttyUSB0 -s 115200 -e  -L &
+sleep 3
+cd ./
+if [ -f ".env" ]; then
+    export PYTHON_PATH=./
+    python3 wisun_receive.py
+else 
+    echo ".env File does not exist."
+fi
+
+
